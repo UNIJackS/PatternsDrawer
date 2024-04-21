@@ -91,7 +91,7 @@
         // draw the lines from the center to bottom left
         UI.drawLine(x, y, x - Math.round(Math.cos(Math.PI/6)*edgeLength) , y+Math.round(Math.sin(Math.PI/6)*edgeLength));
 
-        //drwas the outline
+        //draws the outline
         //draws the topright side
         UI.drawLine(x,y-edgeLength,x+Math.round(Math.cos(Math.PI/6)*edgeLength),y-Math.round(Math.sin(Math.PI/6)*edgeLength));
         //draws the topleft side
